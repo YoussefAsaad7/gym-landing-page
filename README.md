@@ -63,7 +63,7 @@ npm install
 
 # Start development server
 npm run dev
-
+```
 
 🌍 Deployment
 
@@ -96,7 +96,7 @@ Through this project I practiced:
 - Add unit tests with Jest + React Testing Library
 
 
-```
+
 👤 Author
 
 Yussef Asaad
