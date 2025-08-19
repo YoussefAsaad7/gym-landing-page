@@ -4,7 +4,7 @@ A modern, responsive **fitness landing page** built with **React, TypeScript, Vi
 This project demonstrates clean component-based architecture, modular sections, TypeScript typing, and a professional Git branching workflow.  
 
 ![App Preview](./src/assets/screenshot.png) 
-*(Replace with a real screenshot of your app)*
+
 
 ---
 
@@ -33,10 +33,15 @@ This project demonstrates clean component-based architecture, modular sections, 
 ## 📂 Project Structure
 
 src/
+
 ┣ components/ # Reusable UI components
+
 ┣ scenes/ # Page sections (Home, Benefits, Classes, Contact, Footer)
+
 ┣ shared/ # Types, constants, and shared utilities
+
 ┣ App.tsx # Main app assembly
+
 ┗ main.tsx # Entry point
 
 
@@ -62,10 +67,9 @@ npm run dev
 
 🌍 Deployment
 
-Deployed with Vercel / Netlify.
+Deployed with Cloudeflare Pages.
 
-👉 Live Demo: your-app-link.vercel.app
-(Replace with your actual link once deployed)
+👉 Live Demo: https://gym-landing-page-8vb.pages.dev/
 
 📖 Learning Outcomes
 
@@ -91,6 +95,8 @@ Through this project I practiced:
 
 - Add unit tests with Jest + React Testing Library
 
+
+```
 👤 Author
 
 Yussef Asaad
