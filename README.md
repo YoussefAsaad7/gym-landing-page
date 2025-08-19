@@ -1,69 +1,100 @@
-# React + TypeScript + Vite
+# 🏋️ Gym Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **fitness landing page** built with **React, TypeScript, Vite, and TailwindCSS**.  
+This project demonstrates clean component-based architecture, modular sections, TypeScript typing, and a professional Git branching workflow.  
 
-Currently, two official plugins are available:
+![App Preview](./src/assets/screenshot.png) 
+*(Replace with a real screenshot of your app)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ React 18  
+- 🟦 TypeScript  
+- ⚡ Vite  
+- 🎨 TailwindCSS  
+- 🔀 Git & GitHub (feature-branch workflow)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## ✨ Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- ✅ **Responsive Navbar** with active section highlight  
+- ✅ **Hero Section** with CTA and layout  
+- ✅ **Benefits Section** with reusable card components  
+- ✅ **Our Classes Section** with grid-based layout  
+- ✅ **Contact Form** with validation  
+- ✅ **Footer** with consistent design  
+- ✅ **Branching workflow** (`feat/...`, `chore/...`) showcasing professional Git usage  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📂 Project Structure
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+src/
+┣ components/ # Reusable UI components
+┣ scenes/ # Page sections (Home, Benefits, Classes, Contact, Footer)
+┣ shared/ # Types, constants, and shared utilities
+┣ App.tsx # Main app assembly
+┗ main.tsx # Entry point
+
+
+---
+
+## 🛠️ Getting Started
+
+Clone the repo and run locally:
+
+```bash
+# Clone repository
+git clone https://github.com/YoussefAsaad7/gym-landing-page.git
+
+# Move into project folder
+cd gym-landing-page
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+🌍 Deployment
+
+Deployed with Vercel / Netlify.
+
+👉 Live Demo: your-app-link.vercel.app
+(Replace with your actual link once deployed)
+
+📖 Learning Outcomes
+
+Through this project I practiced:
+
+- Structuring a React + TypeScript project with modular architecture
+
+- Writing typed props & interfaces for components
+
+- Managing feature branches with conventional commits and pull requests
+
+- Building responsive layouts with Tailwind
+
+- Following a real-world Git workflow (feature branches → PR → merge → delete)
+
+🔮 Future Improvements
+
+- Add smooth animations with Framer Motion
+
+- Connect Contact Form to a backend (e.g., Node.js / Firebase)
+
+- Integrate a CMS (Sanity / Contentful) for dynamic content
+
+- Add unit tests with Jest + React Testing Library
+
+👤 Author
+
+Yussef Asaad
+
+GitHub: @YoussefAsaad7
+
+LinkedIn: https://www.linkedin.com/in/yussef-asaad-1603031b4/
