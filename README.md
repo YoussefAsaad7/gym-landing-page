@@ -1,4 +1,5 @@
 # 🏋️ Gym Landing Page
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 A modern, responsive **fitness landing page** built with **React, TypeScript, Vite, and TailwindCSS**.  
 This project demonstrates clean component-based architecture, modular sections, TypeScript typing, and a professional Git branching workflow.  
@@ -101,6 +102,7 @@ Through this project I practiced:
 
 Yussef Asaad
 
-GitHub: @YoussefAsaad7
+[GitHub @YoussefAsaad7](https://github.com/YoussefAsaad7)
 
-LinkedIn: https://www.linkedin.com/in/yussef-asaad-1603031b4/
+[LinkedIn](https://www.linkedin.com/in/yussef-asaad-1603031b4/)
+
